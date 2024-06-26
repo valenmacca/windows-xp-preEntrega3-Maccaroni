@@ -1,0 +1,88 @@
+#cerrarRedSocial{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 65rem;
+    bottom: 3.125rem;
+    margin-top: .625rem;
+    cursor: pointer;
+}
+
+#imgderedsocial{
+    width: 4.6875rem ;
+    height: 4.6875rem ;
+}
+
+#ventanaEmergenteRedSocial{
+    background: linear-gradient(to right, #f74c21, #feb47b);
+
+    border: .3125rem solid #000;
+}
+
+#textoRedSocial{
+    padding: 1.25rem;
+    text-align: center;
+    font-size: 3.125rem;
+}
+
+.inputredsocial{
+    text-decoration: none;
+    border: .1563rem solid #000;
+    width:  15.25rem;
+    border-radius: .625rem;
+    margin-bottom: 1.5625rem;
+    text-align: center;
+}
+
+#ulredessociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.liredessociales{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+#botonredessociales{
+    display: block;
+    margin: auto;
+    
+}
+
+#inputsderedessoscialesss{
+    margin-bottom: 1.5625rem;
+}
+
+#aredsociala{
+    text-decoration: none;
+    color: #000;
+}
+
+#h2redsocial{
+    text-align: center;
+}
+
+/* crear contraseña crear contraseña crear contraseña crear contraseña crear contraseña */
+
+.formdecrearusuario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 6.25rem 1.5625rem 1.5625rem 1.5625rem;
+    gap: 1.5625rem;
+}
+
+#cerrarcrearusuario{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 65rem;
+    bottom: 3.125rem;
+    margin-top: .625rem;
+    cursor: pointer;
+}
+
