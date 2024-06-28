@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/descargarapp.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/calculadora.css">
     <link rel="stylesheet" href="./css/redsocial.css">
@@ -11,13 +12,15 @@
 <body>
     <header>
         <nav id="navegadorPrincipal">
+            <img src="./media/img/lunas.png" alt="" class="iconoBuscador" id="cambiarmododnocheindex">
+            <img src="./media/img/tienda.png" alt="" class="iconoBuscador" id="descargarapps">
             <div id="conenedorDelNav">
                 <input type="text" name="Buscador" id="inputNavegador" placeholder="Buscador">
-                <img src="./media/img/ventanas.png" alt="iconoBuscador" id="iconoBuscador">
+                <img src="./media/img/ventanas.png" alt="iconoBuscador" class="iconoBuscador">
             </div>
         </nav>
     </header>
-    <div id="fondoDePantalla">
+    <div class="fondoDePantalla" id="fondossssss">
         <div id="aplicaciones">
                     <div id="aplicaion1Calucladora">
                                 <img src="./media/img/calculadora.png" alt="calculadoraAplicaion" id="imagenDeCalculadora" class="aplicacionesDeLaWeb">
@@ -77,9 +80,9 @@
                     <h2 id="h2redsocial">Red Social</h2>
                     <h3 id="textoRedSocial">ingresa Tu Contraseña</h3>
                         <ul id="ulredessociales">
-                            <li class="liredessociales"><input type="text" placeholder="ingresa tu nombre de usiario" class="inputredsocial"></li>
-                            <li class="liredessociales"><input type="password"  placeholder="ingresa tu contraseña" class="inputredsocial" ></li>
-                            <button type="submit" id="inputsderedessoscialesss">enviar datos</button>
+                            <li class="liredessociales"><input type="text" placeholder="ingresa tu nombre de usiario" class="inputredsocial"id="usuarioverificarinputredes"></li>
+                            <li class="liredessociales"><input type="password"  placeholder="ingresa tu contraseña" class="inputredsocial" id="contrasenaverificarinputredes"></li>
+                            <button type="submit" id="inputsderedessoscialesss">iniciar sesion</button>
                         </ul>
                     <button id="botonredessociales">Crear Contraseñas</button>
             </div>
@@ -93,17 +96,65 @@
             <div id="ventanaemergeneredsoialcrerusuario">
                 <img src="./media/img/reddit.png" alt="RedSocial" id="imgderedsocial">
                 <img src="./media/img/cerrar.png" alt="cruz" id="cerrarcrearusuario">
-                <h2>crea tu usiario</h2>
+                <h2 class="h2crearusuarioredes">crea tu usiario</h2>
                 <div class="formdecrearusuario">
-                        <input type="text" placeholder="ususario">
-                        <input type="password" id="" placeholder="contraseña">
-                        <button>Crear Usuario</button>
+                        <input type="text" class="inputdecrearusuarioredes" id="ponerelnombrecrearusuario" placeholder="ususario">
+                        <input type="password" class="inputdecrearusuarioredes" id="crearcontrasenaaausuarioredes" placeholder="contraseña">
+                        <button id="botoncreausuarioredes">Crear Usuario</button>
+                        <div id="mensajedeerrorredes">
+                            <p id="pdemensajedeeeorr"></p>
+                        </div>
                 </div>
             </div>
         <!-- redsocial contraseña -->
         <!-- redsocial contraseña -->
         <!-- redsocial contraseña -->
-        <script src="./js/redsocial.js"></script>
+        
+        <!-- ventana de la red social -->
+        <!-- ventana de la red social -->
+        <!-- ventana de la red social -->
+        <div id="ventanaderedessoscialesss">
+            <img src="./media/img/cerrar.png" alt="cruz" id="cerrarventaderedosicllll">
+            <div>
+                <h1 class="textoredesssssss">Mi Red Social</h1>
+            </div>
+            
+            <div>
+                <h2 class="h2redessssssds">Perfil</h2>
+                <p>Nombre: Valentino Maccaroni</p><br>
+                <p>Biografía: Amante del desarrollo web.</p>
+            </div>
+            
+            <div>
+                <h2 class="h2redessssssds">Publicaciones</h2>
+                <div>
+                    <h3 class="h3redesss3">Publicación 1</h3>
+                    <p>valentino_maccaroni: coder house es genial.</p>
+                    <p>Publicado el 27 de junio de 2024</p>
+                </div>
+                <div>
+                    <h3 class="h3redesss3">Publicación 2</h3>
+                    <p>valentino_maccaroni: espero que el profe me apruebe.</p>
+                    <p>Publicado el 26 de junio de 2024</p>
+                </div>
+            </div>
+        </div>
+        <!-- ventana de la red social -->
+        <!-- ventana de la red social -->
+        <!-- ventana de la red social -->
+        
+        <!-- descarapps descarapps descarapps -->
+        <!-- descarapps descarapps descarapps -->
+        <!-- descarapps descarapps descarapps -->
+        <div id="descargarappsventanaemergente">
+            <img src="./media/img/cerrar.png" alt="cruz" id="cerrarventadedescargarapps">
+        </div>
+        <!-- descarapps descarapps descarapps -->
+        <!-- descarapps descarapps descarapps -->
+        <!-- descarapps descarapps descarapps -->
+
+    <script src="./js/descargarapps.js"></script>
+    <script src="./js/redsocial.js"></script>
     <script src="./js/calculadora.js"></script>
     <script src="./js/index.js"></script>
 </body>

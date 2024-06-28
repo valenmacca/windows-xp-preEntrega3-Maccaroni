@@ -86,3 +86,51 @@
     cursor: pointer;
 }
 
+.h2crearusuarioredes{
+    text-align: center;
+    font-size: 3.125rem;
+}
+
+.inputdecrearusuarioredes{
+    border: #f74c21 .3125rem solid;
+    border-radius: .625rem;
+    text-decoration: none;
+}
+.inputdecrearusuarioredes::placeholder{
+    text-align: center;
+}
+
+#botoncreausuarioredes{
+    border: #f74c21 .125rem solid;
+    border-radius: 1.5625rem;
+}
+
+/* redesredes ya creadas redes */
+
+#cerrarventaderedosicllll{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 70rem;
+    margin-top: .625rem;
+    cursor: pointer;
+}
+
+.textoredesssssss{
+    text-align: center;
+    font-size: 3.125rem;
+    text-transform: capitalize;
+}
+
+.h2redessssssds{
+    text-align: center;
+    margin: 1.5625rem;
+}
+
+.h3redesss3{
+    margin: 2.1875rem;
+}
+
+#ventanaderedessoscialesss{
+background: linear-gradient(to left, #feb47b, #e9e2e0);
+}

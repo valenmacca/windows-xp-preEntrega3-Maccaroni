@@ -1,0 +1,8 @@
+#cerrarventadedescargarapps{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 70rem;
+    margin-top: .625rem;
+    cursor: pointer;
+}

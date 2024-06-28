@@ -41,7 +41,7 @@ body{
 
 }
 
-#iconoBuscador{
+.iconoBuscador{
     height: 1.875rem;
     width: 1.875rem;
     margin-left: 1.25rem;
@@ -50,8 +50,15 @@ body{
 /* nav nav nav nav nav nav nav nav nav nav nav nav */
 /* fondo de pantalla fondo de pantalla fondo de pantalla */
 
-#fondoDePantalla{
+.fondoDePantalla{
     background-image: url(../media/img/fondo-windowsxp.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.cambiarmododnoche{
+    background-image: url(../media/img/windowsxp-denoche.png);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -133,6 +140,32 @@ body{
     display: none;
 }
 /* aplicacion red social crear usuraio */
+/* red social interfaz */
+#ventanaderedessoscialesss{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 95%;
+    background-color: #fff;
+    bottom: 14.5rem ;
+    display: none;
+}
+
+/* red social interfaz */
+
+/* descarapps */
+#descargarappsventanaemergente{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 95%;
+    background-color: #fff;
+    bottom: 14.5rem ;
+    display: none;
+}
+/* descarapps */
 
 .imagenDeCalculadoraFondo{
     background-color: rgb(190, 182, 182);

@@ -1,3 +1,13 @@
+//modo noche
+
+const cambiarmododnocheindex = document.getElementById("cambiarmododnocheindex")
+let fondossssss = document.getElementById("fondossssss")
+
+cambiarmododnocheindex.addEventListener("click", ()=>{
+    fondossssss.classList.toggle("fondoDePantalla")
+    fondossssss.classList.toggle("cambiarmododnoche")
+})
+
 //appCalculadora
 const ventanaEmergentesCalculadora = document.getElementById("ventanaEmergentesCalculadora")
 const aplicaionCalucladora = document.getElementById("aplicaion1Calucladora")
@@ -23,4 +33,14 @@ aplicacionRedSocial.addEventListener("click", function(){
 aplicacionRedSocial.addEventListener("dblclick", function(){
     aplicacionRedSocial.classList.remove("imagenDeCalculadoraFondo")
     ventanaEmergenteRedSocial.style.display = "block";
+})
+
+//descargar apps
+
+const descargarapps = document.getElementById("descargarapps")
+
+const descargarappsventanaemergente = document.getElementById("descargarappsventanaemergente")
+
+descargarapps.addEventListener("click",function(){
+    descargarappsventanaemergente.style.display = "block"
 })
