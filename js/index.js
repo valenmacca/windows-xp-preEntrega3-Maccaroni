@@ -3,9 +3,15 @@
 const cambiarmododnocheindex = document.getElementById("cambiarmododnocheindex")
 let fondossssss = document.getElementById("fondossssss")
 
+let tituloCalculadora121212112 = document.getElementById("tituloCalculadora1212121")
+let tituloredessosciales12121212 = document.getElementById("tituloredessosciales121212")
+
 cambiarmododnocheindex.addEventListener("click", ()=>{
     fondossssss.classList.toggle("fondoDePantalla")
     fondossssss.classList.toggle("cambiarmododnoche")
+    tituloCalculadora121212112.classList.toggle("colordetecto")
+    tituloredessosciales12121212.classList.toggle("colordetecto")
+
 })
 
 //appCalculadora

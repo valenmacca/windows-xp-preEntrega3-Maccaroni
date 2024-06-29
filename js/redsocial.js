@@ -5,6 +5,8 @@ const botonredessociales = document.getElementById("botonredessociales");
 
 const cerrarcrearusuario = document.getElementById("cerrarcrearusuario");
 
+let paraffo12 = document.getElementById("paraffo12")
+
 
 botonredessociales.addEventListener("click", function(){
     ventanaEmergenteRedSocial1.style.display = "none";
@@ -97,9 +99,12 @@ inputsderedessoscialesss.addEventListener("click", function() {
     if(usuarioverificarinputredesvalor === usuariosesionguardadoo && contrasenaverificarinputredesvalor === contrasenasesionguardadoo){
         ventanaderedessoscialesss.style.display = "block"
         ventanaEmergenteRedSocial1.style.display = "none"
+        paraffo12.innerHTML=""
         
     }else{
-        alert("usuario y/o contraseñas incorrecto")
+        paraffo12.innerHTML="usuario y/o contraseñas incorrecto"
+        paraffo12.style.color="red"
+        paraffo12.style.fontSize="25px"
     }
 
 });
