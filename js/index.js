@@ -1,5 +1,5 @@
-//modo noche
 
+//fecha
 const cambiarmododnocheindex = document.getElementById("cambiarmododnocheindex")
 let fondossssss = document.getElementById("fondossssss")
 
@@ -35,12 +35,24 @@ aplicacionRedSocial.addEventListener("dblclick", function(){
     ventanaEmergenteRedSocial.style.display = "block";
 })
 
+
+
 //descargar apps
 
 const descargarapps = document.getElementById("descargarapps")
 
 const descargarappsventanaemergente = document.getElementById("descargarappsventanaemergente")
 
+
 descargarapps.addEventListener("click",function(){
     descargarappsventanaemergente.style.display = "block"
 })
+
+let fechaaaaaaa = document.getElementById("fechaaaaaaa")
+let fechadeahora = new Date();
+let dia = fechadeahora.getDate()
+let mes = fechadeahora.getMonth() + 1
+let ano = fechadeahora.getFullYear()
+
+fechaaaaaaa.innerHTML = `${dia}/${mes}/${ano}`;
+

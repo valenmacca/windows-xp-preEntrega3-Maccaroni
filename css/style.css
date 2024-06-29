@@ -14,6 +14,8 @@ body{
     overflow: hidden;
 }
 
+
+
 /* nav nav nav nav nav nav nav nav nav nav nav nav */
 #navegadorPrincipal{
     display: flex;
@@ -38,6 +40,7 @@ body{
     height: 1.875rem;
     border-radius: .625rem;
     text-align: center;
+    user-select: none;
 
 }
 
@@ -45,6 +48,8 @@ body{
     height: 1.875rem;
     width: 1.875rem;
     margin-left: 1.25rem;
+    cursor: pointer;
+    user-select: none;
 }
 
 /* nav nav nav nav nav nav nav nav nav nav nav nav */
@@ -69,7 +74,7 @@ body{
 
 #aplicaciones{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -79,8 +84,12 @@ body{
 }
 
 #imagenDeCalculadora{
-    display: block;
     margin: auto;
+    display: none;
+}
+
+#tituloredessosciales121212{
+    display: none;
 }
 
 #aplicaion1Calucladora{
@@ -91,7 +100,6 @@ body{
 
 #ventanaEmergentesCalculadora{
     position: relative;
-    display: block;
     margin: auto;
     width: 85%;
     height: 95%;
@@ -104,8 +112,12 @@ body{
 /* aplicaion red soscial aplicaion red soscial aplicaion red soscial */
 
 #imagenDeRedSocial{
-    display: block;
     margin: auto;
+    display: none;
+}
+
+#tituloCalculadora1212121{
+    display: none;
 }
 
 #aplicacionRedSocial{
@@ -116,13 +128,13 @@ body{
 /* aplicaion red soscial aplicaion red soscial aplicaion red soscial */
 
 #ventanaEmergenteRedSocial{
-    position: relative;
-    display: block;
+    position: absolute;
     margin: auto;
     width: 85%;
     height: 95%;
     background-color: #fff;
-    bottom: 14.5rem ;
+    bottom: 1.5rem ;
+    left: 3rem;
     display: none;
 }
 
@@ -130,25 +142,25 @@ body{
 
 /* aplicacion red social crear usuraio */
 #ventanaemergeneredsoialcrerusuario{
-    position: relative;
-    display: block;
+    position: absolute;
     margin: auto;
     width: 85%;
     height: 95%;
     background-color: #fff;
-    bottom: 14.5rem ;
+    bottom: 1.5rem ;
+    left: 3rem;
     display: none;
 }
 /* aplicacion red social crear usuraio */
 /* red social interfaz */
 #ventanaderedessoscialesss{
-    position: relative;
-    display: block;
+    position: absolute;
     margin: auto;
     width: 85%;
     height: 95%;
     background-color: #fff;
-    bottom: 14.5rem ;
+    bottom: 1.5rem ;
+    left: 4rem;
     display: none;
 }
 
@@ -156,19 +168,30 @@ body{
 
 /* descarapps */
 #descargarappsventanaemergente{
-    position: relative;
-    display: block;
+    position: absolute;
     margin: auto;
     width: 85%;
     height: 95%;
     background-color: #fff;
     bottom: 14.5rem ;
     display: none;
+    z-index: 0;
 }
 /* descarapps */
+
+
+
+
 
 .imagenDeCalculadoraFondo{
     background-color: rgb(190, 182, 182);
     opacity: .125rem;
     border-radius: .3125rem;
+}
+
+#fechaaaaaaa{
+    position: absolute;
+    font-size: .9375rem;
+    top: 37.125rem;
+    color: #fff;
 }

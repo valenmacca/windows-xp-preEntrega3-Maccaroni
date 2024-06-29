@@ -2,7 +2,64 @@
     position: relative;
     width: 1.5rem;
     height: 1.5rem;
-    left: 70rem;
+    left: 68.75rem;
     margin-top: .625rem;
     cursor: pointer;
 }
+
+#pantallaparadescargarapps{
+    position: absolute;
+    left: 25rem;
+    width: 45%;
+    height: 55%;
+    background: linear-gradient(to top, #8f8383, #ffffff);
+    bottom: 7.5rem ;
+    display: none;
+    z-index: 50;
+}
+
+
+.h2dedescargaredes{
+    text-align: center;
+    font-size: 3.125rem;
+    margin-bottom: 1.5625rem;
+    padding: 1.25rem;
+}
+
+#descargarappsventanaemergente{
+    background: linear-gradient(to top, #feb47b, #fff) ;
+    top: 17rem;
+    left: 6.5rem;
+}
+
+#aplicaionesdelaweb{
+    display: flex;
+    gap: 3.5625rem;
+}
+
+.botonesparadescargarapps{
+    position: relative;
+    height: 3rem;
+    width: 8rem;
+}
+
+#h2paradescarappsssa{
+    margin: .9375rem;
+    text-align: center;
+    font-size: 1.5625rem;
+    text-transform: capitalize;
+}
+
+.botenesdelaappdecargar{
+    display: flex;
+    justify-content: center;
+    gap: 3.125rem;
+    margin-top: 50px;
+}
+
+.aplicacionesDeLaWebapp{
+    width: 3.125rem;
+    height: 3.125rem;
+    cursor: pointer;
+}
+
