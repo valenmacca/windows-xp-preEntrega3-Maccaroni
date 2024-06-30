@@ -24,9 +24,7 @@ let pparahcaerquesedeacasrgo = document.getElementById("pparahcaerquesedeacasrgo
 calculadoraparadescargarredes.addEventListener("click",function(){
     if(!calculadorabloque){
         pantallaparadescargarapps.style.display = "block"
-        setTimeout(() => {
-            calculadorabloque = true
-        }, 1500);
+        calculadorabloque = true
     }else{
         Swal.fire({
             icon: "error",
@@ -39,9 +37,7 @@ calculadoraparadescargarredes.addEventListener("click",function(){
 redessocialesparadescargarredes.addEventListener("click",function(){
     if(!redesbloque){
         pantallaparadescargarapps.style.display = "block"
-        setTimeout(() => {
-            redesbloque = true
-        }, 1500);
+        redesbloque = true
     }else{
         Swal.fire({
             icon: "error",

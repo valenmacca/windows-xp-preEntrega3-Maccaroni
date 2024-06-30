@@ -10,10 +10,10 @@
 #pantallaparadescargarapps{
     position: absolute;
     left: 25rem;
-    width: 45%;
-    height: 55%;
+    width: 600px;
+    height: 300px;
     background: linear-gradient(to top, #8f8383, #ffffff);
-    bottom: 7.5rem ;
+    bottom: 25rem ;
     display: none;
     z-index: 50;
 }

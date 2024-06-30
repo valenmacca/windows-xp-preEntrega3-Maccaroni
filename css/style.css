@@ -103,8 +103,8 @@ body{
 #ventanaEmergentesCalculadora{
     position: relative;
     margin: auto;
-    width: 85%;
-    height: 95%;
+    width: 1200px;
+    height: 600px;
     background-color: #fff;
     bottom: 14.5rem ;
     display: none;
@@ -130,13 +130,12 @@ body{
 /* aplicaion red soscial aplicaion red soscial aplicaion red soscial */
 
 #ventanaEmergenteRedSocial{
-    position: absolute;
+    position: relative;
     margin: auto;
-    width: 85%;
-    height: 95%;
+    width: 1200px;
+    height: 600px;
     background-color: #fff;
-    bottom: 6rem ;
-    left: 3.5rem;
+    bottom: 14.5rem ;
     display: none;
 }
 
@@ -144,25 +143,23 @@ body{
 
 /* aplicacion red social crear usuraio */
 #ventanaemergeneredsoialcrerusuario{
-    position: absolute;
+    position: relative;
     margin: auto;
-    width: 85%;
-    height: 95%;
+    width: 1200px;
+    height: 600px;
     background-color: #fff;
-    bottom: 6rem ; ;
-    left: 3rem;
+    bottom: 14.5rem ;
     display: none;
 }
 /* aplicacion red social crear usuraio */
 /* red social interfaz */
 #ventanaderedessoscialesss{
-    position: absolute;
+    position: relative;
     margin: auto;
-    width: 85%;
-    height: 95%;
+    width: 1200px;
+    height: 600px;
     background-color: #fff;
-    bottom: 6rem ;
-    left: 4rem;
+    bottom: 14.5rem ;
     display: none;
 }
 
@@ -172,10 +169,10 @@ body{
 #descargarappsventanaemergente{
     position: absolute;
     margin: auto;
-    width: 85%;
-    height: 95%;
+    width: 1200px;
+    height: 600px;
     background-color: #fff;
-    bottom: 35rem ;
+    bottom: 40rem ;
     display: none;
     z-index: 0;
 }
@@ -193,9 +190,10 @@ body{
 
 #fechaaaaaaa{
     position: absolute;
-    font-size: .9375rem;
+    font-size: 1.875rem;
     top: 30rem;
     color: #fff;
+    text-align: center;
 }
 
 .colordetecto{
