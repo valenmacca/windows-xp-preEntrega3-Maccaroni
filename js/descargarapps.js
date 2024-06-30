@@ -19,14 +19,36 @@ const calculadoraparadescargarredes = document.getElementById("calculadoraparade
 const redessocialesparadescargarredes = document.getElementById("redessocialesparadescargarredes")
 const pantallaparadescargarapps = document.getElementById("pantallaparadescargarapps")
 
+let pparahcaerquesedeacasrgo = document.getElementById("pparahcaerquesedeacasrgo")
+
 calculadoraparadescargarredes.addEventListener("click",function(){
-    pantallaparadescargarapps.style.display = "block"
-    calculadorabloque = true
+    if(!calculadorabloque){
+        pantallaparadescargarapps.style.display = "block"
+        setTimeout(() => {
+            calculadorabloque = true
+        }, 1500);
+    }else{
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "La Aplicaion Ya Esta Instalada",
+        });
+    }
 })
 
 redessocialesparadescargarredes.addEventListener("click",function(){
-    pantallaparadescargarapps.style.display = "block"
-    redesbloque = true
+    if(!redesbloque){
+        pantallaparadescargarapps.style.display = "block"
+        setTimeout(() => {
+            redesbloque = true
+        }, 1500);
+    }else{
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "La Aplicaion Ya Esta Instalada",
+        });
+    }
 })
 
 let botonesparadescargarappssi = document.getElementById("botonesparadescargarappssi")
@@ -94,13 +116,7 @@ botonesparadescargarappssi.addEventListener("click", function(){
             },1000)
         }
 
-        else if(redesdescargada  && calculadoradescargada){
-            paradescarkasappastodasss.innerHTML = "esta aplicaion ya esta descargada"
-            setTimeout(() => {
-                pantallaparadescargarapps.style.display = "none"
-                paradescarkasappastodasss.innerHTML = ""
-            }, 700);
-        }
+
 
 })
 
